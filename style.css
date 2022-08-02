@@ -306,7 +306,7 @@ flex-wrap: wrap;
 
 }
 .portfolio .box-container .box:hover img{
-    transform:scale(3);
+    transform:scale(10);
 }
 
 .contact .raw{
@@ -314,22 +314,54 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 80rem;
 
 }
 .contact .raw .content{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom:0;
 
 }
+.contact .raw .content .title{
+    text-transform: uppercase;
+    color:var(--yellow);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    }
+    
+    
+    
+    .contact .raw  .content .info{
+        align-items: center;
+        font-size: 2rem;
+        color:#fff;
+        padding: 1rem 0;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .contact .raw  .content .info h3{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        color: #eee;
+        padding:1rem 0;
+        font-weight: normal ;
+        font-style: oblique;
+    }
+    
+    .contact .raw  .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--yellow);
+    }
 
 .contact .raw  form{
-    flex: 1 1 45rem;
-    padding: 2rem;
-   
-    margin: 2rem;
-    margin-bottom: 4rem;
-
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom:4rem;
+     
+    
     
 }
 
@@ -338,33 +370,28 @@ flex-wrap: wrap;
     margin: 1rem 0;
     background: #3333;
     color: #fff;
-    text-transform: none;
+    text-transform:none;
     font-size: 1.7rem;
-
+    width:100%;
+}
+.contact .raw  form .box::placeholder{
+    text-transform: capitalize;
 }
 
-.contact .raw  form .message{
+.contact   form .message{
     height: 15rem;
     resize: none;
-
-
-
+    
+    
+    
 }
-.contact .raw .content title{
-text-transform: uppercase;
-color: #fff;
-font-size: 3rem;
-padding-bottom: 2rem;
+.top{
+    position: fixed;
+    bottom: 7.4rem; right:2rem;
+    z-index: 100;
+    display: none;
+    
 
-
-}
-.contact .raw  .content .info{
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    color: #fff;
-    padding: 1rem 0;
-    font-weight: normal;
 }
 
 
@@ -418,7 +445,9 @@ padding-bottom: 2rem;
     .heading{
         margin: 0 3rem;
     }
-
+    .contact .raw form{
+        margin: 3rem 0;
+    }
   
 }
 
