@@ -314,13 +314,14 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 80rem;
+
 
 }
 .contact .raw .content{
     flex:1 1 30rem;
     padding:4rem;
     padding-bottom:0;
+
 
 }
 .contact .raw .content .title{
@@ -390,7 +391,7 @@ flex-wrap: wrap;
     bottom: 7.4rem; right:2rem;
     z-index: 100;
     display: none;
-    
+
 
 }
 
