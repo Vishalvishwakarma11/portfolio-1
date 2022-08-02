@@ -306,7 +306,7 @@ flex-wrap: wrap;
 
 }
 .portfolio .box-container .box:hover img{
-    transform:scale(10);
+    transform:scale(3);
 }
 
 .contact .raw{
