@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Hind:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Rubik+Moonrocks&display=swap');
 
 :root{
-    --yellow:#F9ca24;
+    --yellow:rgb(245, 30, 51);
 }
 *{
     font-family:'Nunito', sans-serif; 
