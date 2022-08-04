@@ -11,25 +11,23 @@
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: all .2s linear;
-
-
+    transition: all .3s linear;
 }
 *::selection{
     background: var(--yellow);
     color: #333;
 }
 html{
-    font-size: 62.5%;
+    font-size: 65.5%;
     overflow-x: hidden;
 
 }
 html::-webkit-scrollbar{
-    width: 1.4rem;
+    width: 1rem;
        
 }
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:rgb(34, 34, 34);
 }
 html::-webkit-scrollbar-thumb{
     background:var(--yellow) ;
@@ -55,17 +53,18 @@ header{
     align-items: center;
     text-align: center;
     justify-content: center;
-    flex-flow: column;
+    flex-flow:column;
 
 }
 
 header .user img{
     height: 20rem;
     width: 17rem;
-    border-radius: 40%;
-   object-fit: cover;
+    border-radius: 41%;
+   object-fit:cover;
    margin-bottom: 1rem;
    border: 0.5rem solid var(--yellow);
+   padding-left:-1em;
 
 }
 header .user .name{
@@ -79,10 +78,11 @@ header .user .post{
 
 header .navbar{
     width: 100%;
+    
 }
 
 header .navbar .ul{
-    list-style: none;
+    list-style:none;
     padding: 1rem 3rem;
 
 }
@@ -93,7 +93,7 @@ header .navbar ul li a{
     background: #333;
     color:#fff;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 10rem;
 
 
 }
@@ -133,15 +133,16 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color: #fff;
 padding: 1rem 0;
+
 }
 .btn{
-    padding: 2rem 2rem;
+    padding: 0.5rem 1rem;
     background: #333;
     color: #fff;
     cursor:pointer;
     margin-top: 1rem;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 
 
 }
@@ -240,7 +241,7 @@ flex-wrap: wrap;
     margin: 4rem  1rem;
     padding-left:4rem;
     border-left: 1rem solid #fff;
-    position: relative;
+    position:relative;
     
 }
 
@@ -409,7 +410,8 @@ flex-wrap: wrap;
         font-size: 55%;
     }
     .home{
-        padding: 1rem 4rem;
+        padding: 0.5rem 1rem;
+        width: auto;
     }
     }
 @media(max-width:991px){
@@ -426,6 +428,13 @@ flex-wrap: wrap;
     body {
         padding: 0%;
     }
+    .home{
+        padding: 0.5rem 1rem;
+        width: auto;
+    }
+    .about .raw .info{
+        margin-left:-4rem;
+    }
 }
 
 
@@ -435,7 +444,7 @@ flex-wrap: wrap;
         width: 100vw;
     }
     .about  .raw .counter .box {
-        width:100%;
+        width:auto;
     }
     .education .box-container .box {
        width: 100%;
