@@ -24,3 +24,14 @@ $('header').toggleClass('toggle');
     });
 
 });
+function hello(){
+
+    var a= confirm("Are you like my web page");
+     if(a)
+     {
+     alert("Thanks you very much");
+ }else{
+     alert("SORRY");
+ }
+
+ }
