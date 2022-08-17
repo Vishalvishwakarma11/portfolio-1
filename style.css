@@ -144,12 +144,34 @@ padding: 1rem 0;
     font-size: 2rem;
     border-radius: 2rem;
 
+    
+
+
 
 }
+
 .btn i{
     padding: 0.5rem;
     font-size: 1.7rem;
 }
+.logo {
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    cursor:pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    flex-flow:wrap;
+    margin:0.1rem;
+}
+.logo:hover {
+    background-color: var(--yellow);
+}
+
+
 .btn:hover{
     background-color: var(--yellow);
 }
@@ -168,7 +190,9 @@ padding: 1rem 0;
 
 
 }
+.about .info a{
 
+}
 .about .raw{
     display:flex;
     color:#eee ;
@@ -176,6 +200,7 @@ padding: 1rem 0;
     flex-wrap: wrap;
     padding:1rem 0 ;
     justify-content: center;
+    
 }
 
 .about .raw  .info{
@@ -216,6 +241,7 @@ flex-wrap: wrap;
     margin: 2rem;
 
 }
+
 .about  .raw .counter .box span{
     color: var(--yellow);
     font-size: 4rem;
@@ -396,7 +422,9 @@ flex-wrap: wrap;
 
 }
 
+#logo{
 
+}
 
 
 
