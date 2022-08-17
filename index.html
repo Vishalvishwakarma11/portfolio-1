@@ -136,11 +136,10 @@
     </div>
 
 <form action="" name="google-sheet">
-    <input type="text"  name="name" placeholder="name" class="box">
-    <input type="text" name="email"  placeholder="email" class="box">
-    <input type="text" name="project" placeholder="project" class="box">
-    <input type="num" name="contact" placeholder="mobile no." class="box">
-    <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+    <input type="text"  name="name" placeholder="name"  required class="box">
+    <input type="email" name="email"  placeholder="email" required class="box">
+    <input type="num" name="contact" placeholder="mobile no." required class="box">
+    <textarea name="message" id="" cols="30" rows="10" class="box message" required placeholder="message"></textarea>
     <button type ="submit" class="btn" id="btn" onclick="hello()">send <i class="fas fa-paper-plane"></i></button>
         
 </form>
