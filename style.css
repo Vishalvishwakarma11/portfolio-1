@@ -333,7 +333,7 @@ flex-wrap: wrap;
 
 }
 .portfolio .box-container .box:hover img{
-    transform:scale(3);
+    transform:rotate(360deg);
 }
 
 .contact .raw{
@@ -422,7 +422,12 @@ flex-wrap: wrap;
 
 }
 
-#logo{
+.logo1 img{
+
+    height: 20rem;
+    width: 17rem;
+  border-radius: 50%;
+
 
 }
 
