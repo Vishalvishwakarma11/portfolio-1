@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
@@ -12,6 +13,7 @@
 </head>
 <body>
     <header>
+      
 <div class="user">
     <img src="img11.png" alt="">
     <h3 class="name">Vipul soni</h3>
@@ -20,7 +22,7 @@
 <nav class="navbar">
     <ul>
         <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
+        <li><a href="about">about</a></li>
         <li><a href="#education">education</a></li>
         <li><a href="#portfolio">portfolio</a></li>
         <li><a href="#contact">contact</a></li>
@@ -32,6 +34,7 @@
     <div id="menu" class="fas fa-bars"></div>
 
 <section class="home " id="home">
+    <div class="logo1"><img src="img11.png" alt=""></div>
     <h3>HI THERE !</h3>
     <h3>I'M <span>vipul soni</span></h3>
     <p> To get an opportunity that allows me to showcase my skills and contribute to the company's</p> <br>
@@ -129,19 +132,21 @@
     <div class="content">
         <h3 class="title">contact info</h3>
         <div class="info">
-           <h3><i class="fas fa-envelope"></i><a href = "mailto:vipulsoni689@gmail.com" style="color: white;">vipulsoni689@gmail.com</a></h3>
+            <h3><i class="fas fa-envelope"></i><a href = "mailto: vipulsoni689@gmail.com" style="color: white;">vipulsoni689@gmail.com</a></h3>
             <h3><i class="fas fa-phone"></i><a href="tel:+918369039831" style="color:white;">+91 8363039831</a></h3>
             <h3><i class="fas fa-map-marker-alt"></i>mumbai, india - 400101.</h3>
         </div>
     </div>
 
-<form action="" name="google-sheet">
-    <input type="text"  name="name" placeholder="name"  required class="box">
-    <input type="email" name="email"  placeholder="email" required class="box">
-    <input type="num" name="contact" placeholder="mobile no." required class="box">
+<form action="#" id="google-sheet">
+   
+    <input type="text"  name="name" placeholder="name" required class="box">
+    <input type="text" name="email"  placeholder="email"  required class="box">
+    <input type="text" name="project" placeholder="project" required class="box">
+    <input type="num" name="contact" placeholder="mobile no."  required class="box">
     <textarea name="message" id="" cols="30" rows="10" class="box message" required placeholder="message"></textarea>
     <button type ="submit" class="btn" id="btn" onclick="hello()">send <i class="fas fa-paper-plane"></i></button>
-        
+
 </form>
 </div>
 </section>
