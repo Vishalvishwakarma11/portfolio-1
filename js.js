@@ -33,5 +33,5 @@ function hello(){
  }else{
      alert("SORRY");
  }
-
+    e.target.reset();
  }
