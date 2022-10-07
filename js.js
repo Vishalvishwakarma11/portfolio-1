@@ -26,11 +26,19 @@ $('header').toggleClass('toggle');
 });
 function hello(){
 
-     let a= confirm("Are you like my web page");
+     let a= confirm("Are you like my web page ?");
      if(a){
-     alert("Thanks you very much");
+     alert("Thanks you very much!");
  }else{
-     alert("SORRY");
+     alert("Sorry");
  }
-  document.getElementById("google-sheet").reset();
  }
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function handleClick(event) {
+  event.preventDefault();
+
+});
+
+
